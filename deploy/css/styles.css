@@ -329,9 +329,35 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.top-content-spacing {
+  padding-top: 60px;
+}
+@media (min-width: 1200px) {
+  .top-content-spacing {
+    padding-top: 100px;
+  }
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -356,6 +382,10 @@ textarea {
 /* =============
     Navigation
 ============= */
+a {
+  text-decoration: none;
+}
+
 /* =============
     Header
 ============= */
@@ -380,4 +410,94 @@ textarea {
   #hero {
     height: 75vh;
   }
+}
+
+#history {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". history .";
+}
+@media (min-width: 1200px) {
+  #history {
+    grid-template-columns: auto 1000px auto;
+  }
+}
+#history > div {
+  grid-area: history;
+}
+#history > div #history-top aside div {
+  background-image: url("../img/history/history.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#history > div #history-top h1 {
+  font-family: "Comfortaa", cursive;
+  color: var(--yellow);
+  font-size: 3rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #history > div #history-top h1 {
+    font-size: 3.4375rem;
+  }
+}
+@media (min-width: 1200px) {
+  #history > div #history-top h1 {
+    font-size: 4.125rem;
+  }
+}
+#history > div #history-top h1 span {
+  font-size: 1.9375rem;
+}
+@media (min-width: 768px) {
+  #history > div #history-top h1 span {
+    display: block;
+    font-size: 2.625rem;
+  }
+}
+@media (min-width: 1200px) {
+  #history > div #history-top h1 span {
+    font-size: 3.375rem;
+  }
+}
+#history > div #history-bottom article h3 {
+  font-weight: 400;
+  font-size: 1.0625rem;
+  margin: 34px 0 24px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #history > div #history-bottom article h3 {
+    font-size: 1.125rem;
+    margin: 65px 0 34px;
+  }
+}
+#history > div #history-bottom article p {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 22px;
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  #history > div #history-bottom article p {
+    line-height: 26px;
+  }
+}
+#history > div #history-bottom #history-sub-content {
+  margin-top: 60px;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #history > div #history-bottom #history-sub-content {
+    margin-top: 140px;
+    padding: 0 10vw;
+  }
+}
+@media (min-width: 1200px) {
+  #history > div #history-bottom #history-sub-content {
+    padding: 0 8vw;
+  }
+}
+#history > div #history-bottom #history-sub-content span {
+  font-weight: 700;
 }
