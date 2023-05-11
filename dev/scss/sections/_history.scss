@@ -4,9 +4,14 @@
 
 
 #history {
+    scroll-margin-top: 70px;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". history .";
+
+    @include md{
+        scroll-margin-top: 100px;
+    }
 
     @include xl{
         grid-template-columns: auto 1000px auto;
