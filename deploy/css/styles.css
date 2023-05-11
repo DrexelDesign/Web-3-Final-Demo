@@ -425,10 +425,24 @@ a {
 #history > div {
   grid-area: history;
 }
+#history > div #history-top aside {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
 #history > div #history-top aside div {
   background-image: url("../img/history/history.jpg");
   background-size: cover;
   background-position: center;
+  width: 50%;
+  padding-bottom: 50%;
+  border-radius: 100%;
+}
+@media (min-width: 768px) {
+  #history > div #history-top aside div {
+    width: 20%;
+    padding-bottom: 20%;
+  }
 }
 #history > div #history-top h1 {
   font-family: "Comfortaa", cursive;
@@ -484,12 +498,12 @@ a {
   }
 }
 #history > div #history-bottom #history-sub-content {
-  margin-top: 60px;
+  margin-top: 80px;
   font-size: 1rem;
 }
 @media (min-width: 768px) {
   #history > div #history-bottom #history-sub-content {
-    margin-top: 140px;
+    margin-top: 100px;
     padding: 0 10vw;
   }
 }
@@ -498,6 +512,9 @@ a {
     padding: 0 8vw;
   }
 }
-#history > div #history-bottom #history-sub-content span {
+#history > div #history-bottom #history-sub-content p {
+  font-weight: 400;
+}
+#history > div #history-bottom #history-sub-content p span {
   font-weight: 700;
 }
