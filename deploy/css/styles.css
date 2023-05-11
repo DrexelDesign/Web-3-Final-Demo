@@ -349,7 +349,7 @@ ul li {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
 }
@@ -412,6 +412,9 @@ a {
   }
 }
 
+/* =============
+    History
+============= */
 #history {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -517,4 +520,104 @@ a {
 }
 #history > div #history-bottom #history-sub-content p span {
   font-weight: 700;
+}
+
+/* =============
+    Skills
+============= */
+@media (min-width: 1200px) {
+  #skills {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}
+#skills #skill-hero {
+  background-image: url("../img/skills/robot.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+@media (min-width: 1200px) {
+  #skills #skill-hero {
+    background-position: 80% center;
+  }
+}
+#skills #skill-bottom {
+  background-color: var(--charcoal);
+  color: white;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". skills .";
+  padding: 60px 0 40px;
+}
+@media (min-width: 768px) {
+  #skills #skill-bottom {
+    grid-template-columns: 15vw auto 15vw;
+  }
+}
+@media (min-width: 1200px) {
+  #skills #skill-bottom {
+    grid-template-columns: 100px 30vw 15vw;
+  }
+}
+@media (min-width: 1440px) {
+  #skills #skill-bottom {
+    grid-template-columns: 100px 25vw 15vw;
+  }
+}
+#skills #skill-bottom #skills-flex {
+  grid-area: skills;
+  display: flex;
+  align-items: center;
+}
+#skills #skill-bottom #skills-flex h1 {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.3125rem;
+  margin-bottom: 5px;
+}
+@media (min-width: 1200px) {
+  #skills #skill-bottom #skills-flex h1 {
+    font-size: 2.1875rem;
+  }
+}
+#skills #skill-bottom #skills-flex p {
+  line-height: 22px;
+}
+@media (min-width: 1200px) {
+  #skills #skill-bottom #skills-flex p {
+    font-size: 1.5625rem;
+    line-height: 30px;
+  }
+}
+#skills #skill-bottom #skills-flex #skill-bars {
+  margin-top: 40px;
+}
+#skills #skill-bottom #skills-flex #skill-bars .skill-bars-top {
+  display: flex;
+  margin-top: 50px;
+}
+#skills #skill-bottom #skills-flex #skill-bars .skill-bars-top h4 {
+  font-weight: 400;
+}
+#skills #skill-bottom #skills-flex #skill-bars .skill-bars-top h5 {
+  margin-left: auto;
+}
+#skills #skill-bottom #skills-flex #skill-bars .bar-bg {
+  background-color: black;
+  height: 10px;
+  width: 100%;
+  margin-top: 8px;
+}
+#skills #skill-bottom #skills-flex #skill-bars .bar-bg .yellow-bar {
+  background-color: var(--yellow);
+  height: 100%;
+}
+#skills #skill-bottom #skills-flex #skill-bars .bar-bg #yellow-emotion {
+  width: 62%;
+}
+#skills #skill-bottom #skills-flex #skill-bars .bar-bg #yellow-learning {
+  width: 90%;
+}
+#skills #skill-bottom #skills-flex #skill-bars .bar-bg #yellow-math {
+  width: 95%;
 }
