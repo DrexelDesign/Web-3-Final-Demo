@@ -471,6 +471,8 @@ header {
   position: fixed;
   width: 100%;
   background-color: white;
+  top: 0;
+  left: 0;
 }
 @media (min-width: 768px) {
   header {

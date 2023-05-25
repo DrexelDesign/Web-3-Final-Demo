@@ -231,6 +231,14 @@
       "oAP" : "\/design\/final-demo.fig",
       "oF" : 0
     },
+    "\/dev\/checkout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
