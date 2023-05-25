@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34484",
   "files" : {
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -231,44 +239,60 @@
       "oAP" : "\/design\/final-demo.fig",
       "oF" : 0
     },
-    "\/dev\/content\/gallery.kit" : {
+    "\/dev\/checkout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/gallery.html",
+      "oAP" : "\/dev\/content\/checkout\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero-2.kit" : {
+    "\/dev\/content\/index\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
+      "oAP" : "\/dev\/content\/index\/gallery.html",
       "oF" : 0
     },
-    "\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/index\/hero-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/index\/hero-2.html",
       "oF" : 0
     },
-    "\/dev\/content\/history.kit" : {
+    "\/dev\/content\/index\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/history.html",
+      "oAP" : "\/dev\/content\/index\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/skills.kit" : {
+    "\/dev\/content\/index\/history.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/skills.html",
+      "oAP" : "\/dev\/content\/index\/history.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/skills.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/skills.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -472,7 +496,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_gallery.scss" : {
+    "\/dev\/scss\/sections\/checkout\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -481,13 +505,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero-2.scss" : {
+    "\/dev\/scss\/sections\/index\/_gallery.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -496,13 +520,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
+      "oAP" : "\/dev\/scss\/sections\/index\/_gallery.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_hero.scss" : {
+    "\/dev\/scss\/sections\/index\/_hero-2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -511,13 +535,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/sections\/index\/_hero-2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_history.scss" : {
+    "\/dev\/scss\/sections\/index\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -526,13 +550,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_history.css",
+      "oAP" : "\/dev\/scss\/sections\/index\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_skills.scss" : {
+    "\/dev\/scss\/sections\/index\/_history.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -541,7 +565,22 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_skills.css",
+      "oAP" : "\/dev\/scss\/sections\/index\/_history.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/index\/_skills.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_skills.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
